@@ -1,0 +1,39 @@
+.header{
+    background-color: $white;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    width: 88%;
+    margin: auto;
+    font-family: Gotham-Bold, sans-serif;
+}
+.menu{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.social-list{
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    align-items: center;
+}
+.social-listItem{
+    padding: 0 6px;
+}
+.navBar-list{
+    display: flex;
+    list-style: none;
+}
+.navBar-listItem{
+    margin: 0 6px;
+    padding: 0 10px;
+}
+.navBar-listItem a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: $black;
+
+}

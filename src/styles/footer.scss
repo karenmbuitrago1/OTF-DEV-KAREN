@@ -1,0 +1,50 @@
+.footer{
+    background-color: $secondaryColor;
+    color: $white;
+    display: flex;
+    justify-content: space-around;
+    padding: 32px;
+}
+.footer-logo{
+    width: 14%;
+}
+.footer-logoImg{
+    width: 100px;
+    height: auto;
+}
+.footer-logoText{
+    line-height: 18px;
+}
+.footer-menu{
+    display: flex;
+    width: 30%;
+    justify-content: space-around;
+}
+.footer-list{
+    padding: 0;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.footer-list a{
+    color: $white;
+    text-decoration: none;
+}
+.footer-social{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+}
+.footer-socialList{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+}
+.footer-listItem{
+    padding: 0 16px;
+}
