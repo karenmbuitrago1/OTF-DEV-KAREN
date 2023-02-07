@@ -36,3 +36,9 @@
     border: 3px solid $principalRed;;
     color: $principalRed;
 }
+
+@media only screen and (max-width: 600px) {
+    .section-two--left {
+        margin: 16px;
+    }
+}

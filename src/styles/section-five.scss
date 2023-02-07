@@ -1,13 +1,123 @@
-.section-five{
-    background-image: url('../images/section-five.jpg');
+.section-five {
+    background-image: url("../images/section-five.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
     justify-content: center;
 }
-.card-left{
+.card-left {
     width: 39%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
-.card-right{
+.card-right {
     width: 39%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.card {
+    max-width: 62%;
+    margin: 0;
+    background-color: $white;
+    border-radius: 8px;
+    margin: 30px;
+}
+.card-img {
+    width: 100%;
+}
+.card-block {
+    margin: 48px 24px;
+}
+.card-block--h4 {
+    text-transform: uppercase;
+    color: $gray2;
+    margin: 0;
+    font-family: Gotham-bold, sans-serif;
+}
+.card-block--p {
+    display: -webkit-box;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 14px;
+    color: $gray2;
+    line-height: 150%;
+}
+
+.card-submit {
+    background-color: $principalRed;
+    border: 3px solid $principalRed;
+}
+
+.card-submit:hover {
+    background-color: transparent;
+    border: 3px solid $principalRed;
+    color: $principalRed;
+}
+
+.post {
+    background-image: url("../images/garden-building.jpg");
+    background-repeat: no-repeat;
+    background-size: auto;
+    display: flex;
+    align-items: flex-start;
+    height: 80%;
+    width: auto;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.post-h3 {
+    color: $white;
+    display: flex;
+    text-transform: uppercase;
+    line-height: 125%;
+    font-family: Gotham-bold, sans-serif;
+    margin: 0 32px;
+}
+.post-cta {
+    background-color: #1093b5;
+    border-radius: 5px;
+    padding: 8px 16px;
+    margin: 32px;
+    cursor: pointer;
+    color: $white;
+    font-size: 14px;
+    line-height: 120%;
+    letter-spacing: 0.04em;
+    font-family: Gotham-light, sans-serif;
+}
+
+.post-cta:hover{
+    background-color: #0077B5;
+}
+
+@media only screen and (max-width: 600px) {
+    .section-five{
+        flex-direction: column;
+    }
+    .card-left{
+        width: 100%;
+    }
+    .card{
+        max-width: 100%;
+    }
+    .card-right{
+        margin: 8px;
+        width: 100%;
+    }
+    .post{
+        width: 90%;
+        height: auto;
+    }
+    .post-h3{
+        margin: 8px;
+        padding: 8px;
+    }
+    .post-cta{
+        margin: 16px;
+    }
 }

@@ -29,3 +29,21 @@
 .section-one--right{
     margin: 0 30px;
 }
+
+@media only screen and (max-width: 600px) {
+    .section-content {
+        flex-direction: column;
+    }
+    .section-img{
+        width: 100%;
+    }
+    .section-one--right{
+        margin: 8px;
+    }
+    .section-one--h3 {
+        margin: 8px;
+    }
+    .section-one--p {
+        margin: 8px;
+    }
+}

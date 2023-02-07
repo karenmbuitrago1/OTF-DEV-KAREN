@@ -1,8 +1,12 @@
+*{
+    box-sizing: border-box;
+}
 body {
     margin: 0;
     padding: 0;
     background: $white;
     font-family: Gotham, sans-serif;
+    width: 100%;
 }
 html {
     width: 100%;
@@ -32,7 +36,7 @@ p {
 button,
 input[type="submit"] {
     font-size: 18px;
-    font-family: Gotham-light,sans-serif;
+    font-family: Gotham-light, sans-serif;
     text-align: center;
     letter-spacing: 0.04em;
     text-transform: uppercase;
@@ -53,15 +57,26 @@ select {
     border: 1px solid $gray4;
     color: $gray3;
     padding: 0;
+    font-family: Gotham-light, sans-serif;
+    font-size: 12px;
 }
 
-label{
-    font-size: 12px;
+label {
     color: $gray1;
 }
 
+select {
+    padding: 8px 16px;
+}
+
 ::placeholder {
-    padding: 16px 8px;
+    padding: 8px 16px;
+    color: $gray3;
+    font-size: 12px;
+}
+
+option {
+    color: $gray1;
 }
 
 label {
@@ -72,3 +87,18 @@ label {
     width: 22px;
     height: auto;
 }
+
+@media only screen and (min-width: 768px) {
+    body {
+        width: 100hv;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    input,
+    textarea,
+    select {
+        width: 90%;
+    }
+}
+

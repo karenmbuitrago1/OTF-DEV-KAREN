@@ -6,6 +6,7 @@
     justify-content: center;
     list-style: none;
     padding: 30px;
+    margin: 0;
 }
 .four-list--item{
     width: 20%;
@@ -18,7 +19,7 @@
 .numbers{
     font-size: 56px;
     color: $white;
-    font-weight: 700;
+    font-family: Gotham-bold,sans-serif;
     margin: 14px 0;
 }
 .four-p{
@@ -26,4 +27,14 @@
     font-family: Gotham-light, sans-serif;
     text-align: center;
     margin: 0;
+}
+
+@media only screen and (max-width: 600px) {
+    .four-list{
+        flex-direction: column;
+    }
+    .four-list--item{
+        width: 100%;
+        margin: 8px 0;
+    }
 }

@@ -1,49 +1,55 @@
-.hero{
+.hero {
     display: flex;
 }
-.hero-left{
+.hero-left {
     width: 60%;
     display: flex;
     justify-content: center;
-    // background-image: url('../images/img-placeholder.jpg');
-    // background-repeat: no-repeat;
-    // background-size: cover;
+    background-image: url("../images/img-placeholder.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
-.hero-left--text{
+.hero-left--text {
     width: 60%;
     color: $white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
-.hero-h1{
+.hero-h1 {
     text-transform: uppercase;
+    margin: 15px 0;
 }
-.hero-h4{
+.hero-h4 {
     text-transform: uppercase;
+    margin: 15px 0;
 }
-.hero-p{
+.hero-p {
     line-height: 150%;
+    margin: 0;
 }
-.hero-right{
+.hero-right {
     width: 23%;
     margin: 14px 18px;
     padding: 32px 24px;
 }
 
-.hero-right--title{
+.hero-right--title {
     color: $principalRed;
     margin: 0;
     text-transform: uppercase;
     font-family: Gotham-bold, sans-serif;
 }
-.hero-right--text{
+.hero-right--text {
     color: $gray1;
     line-height: 150%;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
-.form{
+.form {
     display: flex;
     flex-direction: column;
 }
-.hero-checkbox{
+.hero-checkbox {
     width: 20px;
     margin: 0px 4px 0px 0;
     vertical-align: middle;
@@ -52,14 +58,44 @@
     color: $gray1;
 }
 
-.hero-submit{
+.hero-submit {
     background-color: $principalRed;
-    border: 3px solid $principalRed;;
+    border: 3px solid $principalRed;
     margin: 24px 0;
 }
 
-.hero-submit:hover{
+.hero-submit:hover {
     background-color: transparent;
-    border: 3px solid $principalRed;;
+    border: 3px solid $principalRed;
     color: $principalRed;
+}
+
+::-webkit-calendar-picker-indicator {
+    cursor: pointer;
+    border-radius: 4px;
+    margin-right: 8px;
+    color: $secondaryColor;
+    width: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+    .hero{
+        flex-direction: column;
+    }
+    .hero-left,
+    .hero-left--text{
+        width: 100%;
+    }
+    .hero-right{
+        width: 90%;
+        padding: 16px;
+        margin: 16px;
+    }
+    .hero-left--text{
+        padding: 16px;
+        margin: 16px;
+    }
+    .hero-h1{
+        font-size: 50px;
+    }
 }
