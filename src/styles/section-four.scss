@@ -1,0 +1,29 @@
+.section-four{
+    background-color: $secondaryColor;
+}
+.four-list{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 30px;
+}
+.four-list--item{
+    width: 20%;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.numbers{
+    font-size: 56px;
+    color: $white;
+    font-weight: 700;
+    margin: 14px 0;
+}
+.four-p{
+    color: $white;
+    font-family: Gotham-light, sans-serif;
+    text-align: center;
+    margin: 0;
+}

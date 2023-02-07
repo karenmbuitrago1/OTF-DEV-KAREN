@@ -1,0 +1,38 @@
+.section-two{
+    background-image: url('../images/section-two.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+.section-two--left{
+    margin: 0 30px;
+}
+.section-two--h3{
+    color: $white;
+    text-transform: uppercase;
+    font-family: Gotham-bold, sans-serif;
+    margin: 20px 0;
+}
+.section-two--p{
+    color: $white;
+    margin: 0;
+    line-height: 150%;
+    font-family: Gotham-light, sans-serif;
+}
+.section-two--right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 20px;
+}
+.section-button{
+    background-color: $principalRed;
+    border: 3px solid $principalRed;;
+    margin: 24px 0;
+}
+.section-button:hover{
+    background-color: transparent;
+    border: 3px solid $principalRed;;
+    color: $principalRed;
+}

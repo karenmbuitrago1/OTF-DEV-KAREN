@@ -2,5 +2,64 @@
     display: flex;
 }
 .hero-left{
-    position: relative;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    // background-image: url('../images/img-placeholder.jpg');
+    // background-repeat: no-repeat;
+    // background-size: cover;
+}
+.hero-left--text{
+    width: 60%;
+    color: $white;
+}
+.hero-h1{
+    text-transform: uppercase;
+}
+.hero-h4{
+    text-transform: uppercase;
+}
+.hero-p{
+    line-height: 150%;
+}
+.hero-right{
+    width: 23%;
+    margin: 14px 18px;
+    padding: 32px 24px;
+}
+
+.hero-right--title{
+    color: $principalRed;
+    margin: 0;
+    text-transform: uppercase;
+    font-family: Gotham-bold, sans-serif;
+}
+.hero-right--text{
+    color: $gray1;
+    line-height: 150%;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.form{
+    display: flex;
+    flex-direction: column;
+}
+.hero-checkbox{
+    width: 20px;
+    margin: 0px 4px 0px 0;
+    vertical-align: middle;
+    font-size: 12px;
+    line-height: 150%;
+    color: $gray1;
+}
+
+.hero-submit{
+    background-color: $principalRed;
+    border: 3px solid $principalRed;;
+    margin: 24px 0;
+}
+
+.hero-submit:hover{
+    background-color: transparent;
+    border: 3px solid $principalRed;;
+    color: $principalRed;
 }

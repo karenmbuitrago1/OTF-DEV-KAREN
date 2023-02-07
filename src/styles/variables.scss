@@ -1,5 +1,8 @@
 $black:                 #262626;
 $white:                 #FFFFFF;
+$gray1:                 #313131;    
+$gray3:                 #C2C2C2;    
+$gray4:                 #949494;    
 
 $secondaryColor:        #3357F8;
 $principalRed:          #F10A0A;
@@ -18,4 +21,11 @@ $principalGray:         #F2F2F2;
 @font-face {
     font-family: Gotham-Bold;
     src: url(./fonts/Gotham-Bold.otf);
+}
+
+@mixin transition($transition) {
+    -moz-transition:    $transition;
+    -o-transition:      $transition;
+    -webkit-transition: $transition;
+    transition:         $transition;
 }

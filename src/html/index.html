@@ -67,16 +67,18 @@
     <main class="main">
         <section class="hero">
             <div class="hero-left">
-                <img class="hero-img" src="../images/img-placeholder.jpg" alt="">
-                <h1>Title goes here</h1>
-                <h4>Subhead goes here</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nibh diam massa aenean tortor euismod auctor faucibus eget eget. Amet consequat pharetra feugiat egestas pellentesque iaculis. Lorem nunc phasellus tellus mattis. Risus duis et non ac gravida amet adipiscing.</p>
+                <img class="hero-left--img" src="../images/img-placeholder.jpg" alt="">
+                <!-- <div class="hero-left--text">
+                    <h1 class="hero-h1">Title goes here</h1>
+                    <h4 class="hero-h4">Subhead goes here</h4>
+                    <p class="hero-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nibh diam massa aenean tortor euismod auctor faucibus eget eget. Amet consequat pharetra feugiat egestas pellentesque iaculis. Lorem nunc phasellus tellus mattis. Risus duis et non ac gravida amet adipiscing.</p>
+                </div> -->
             </div>
             <div class="hero-right">
-                <h5>Lorem ipsum dolor sit</h5>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                <form action="">
-                    <label for=""><input type="text"></label>
+                <h5 class="hero-right--title">Lorem ipsum dolor sit</h5>
+                <p class="hero-right--text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <form class="form" action="">
+                    <label for=""><input type="text" requiered placeholder="Placeholder*"></label>
                     <label for="">
                         <select name="" id="">
                             <option value="">Select an option</option>
@@ -87,22 +89,85 @@
                     <label for="">
                         <textarea name="" id="" cols="30" rows="10" placeholder="Type somenthing here..."></textarea>
                     </label>
-                    <label for=""><input type="checkbox" required>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</label>
-                    <input type="submit" value="Submit" />
+                    <label for=""><input class="hero-checkbox" type="checkbox" required>Lorem ipsum dolor sit amet,
+                        consectetur adipiscing
+                        elit.</label>
+                    <input class="hero-submit" type="submit" value="Submit" />
                 </form>
             </div>
         </section>
-        <section class="section-one"></section>
-        <section class="section-two"></section>
-        <section class="section-three"></section>
-        <section class="section-four"></section>
-        <section class="section-five"></section>
-        <section class="section-six"></section>
+        <section class="section-one">
+            <div class="section-content">
+                <div class="section-one--left">
+                    <h3 class="section-one--h3">Lorem Ipsum</h3>
+                    <p class="section-one--p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet ornare sed adipiscing ac sagittis egestas. Risus dolor, senectus mauris tincidunt platea. Tempus viverra amet lacinia velit condimentum sed sollicitudin netus eu. Libero, in commodo quis vel ullamcorper interdum a integer rhoncus. Imperdiet commodo dignissim velit interdum quis.</p>
+                </div>
+                <div class="section-one--right">
+                    <img src="../images/woman-at-phone.jpg" alt="woman at phone">
+                </div>
+            </div>
+        </section>
+        <section class="section-two">
+            <div class="section-content">
+                <div class="section-two--left">
+                    <img src="../images/section-video.jpg" alt="woman at phone">
+                </div>
+                <div class="section-two--right">
+                    <h3 class="section-two--h3">Lorem Ipsum</h3>
+                    <p class="section-two--p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet ornare sed adipiscing ac sagittis egestas. Risus dolor, senectus mauris tincidunt platea. Tempus viverra amet lacinia velit condimentum sed sollicitudin netus eu. Libero, in commodo quis vel ullamcorper interdum a integer rhoncus. Imperdiet commodo dignissim velit interdum quis.</p>
+                    <button class="section-button">Submit</button>
+                </div>
+            </div>
+        </section>
+        <section class="section-three">
+            <div class="section-content">
+                <div class="section-one--left">
+                    <h3 class="section-one--h3">Lorem Ipsum</h3>
+                    <p class="section-one--p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet ornare sed adipiscing ac sagittis egestas. Risus dolor, senectus mauris tincidunt platea. Tempus viverra amet lacinia velit condimentum sed sollicitudin netus eu. Libero, in commodo quis vel ullamcorper interdum a integer rhoncus. Imperdiet commodo dignissim velit interdum quis.</p>
+                </div>
+                <div class="section-one--right">
+                    <img src="../images/hands-and-computer.jpg" alt="woman at phone">
+                </div>
+            </div>
+        </section>
+        <section class="section-four">
+            <ul class="four-list">
+                <li class="four-list--item">
+                    <img src="../images/icon-bar.png" alt="bars">
+                    <p class="numbers">2.620</p>
+                    <p class="four-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </li>
+                <li class="four-list--item">
+                    <img src="../images/icon-graph.png" alt="graph">
+                    <p class="numbers">132.620</p>
+                    <p class="four-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </li>
+                <li class="four-list--item">
+                    <img src="../images/icon-light.png" alt="light">
+                    <p class="numbers">13.654</p>
+                    <p class="four-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </li>
+            </ul>
+        </section>
+        <section class="section-five">
+            <div class="card-left">
+                <img src="" alt="">
+                <div>
+                    <h4>Here a card title</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In vitae accumsan magna, id commodo sem. Sed turpis ante, posuere eu purus venenatis, imperdiet convallis dui. Sed erat mauris, gravida sit amet lacus in, bibendum imperdiet felis. Aliquam libero turpis, vulputate ut tellus at, pulvinar tempor magna. Donec a finibus eros. Vestibulum dignissim porttitor nunc, vitae tristique ipsum ornare eu. Donec efficitur tincidunt lectus in efficitur. Proin iaculis risus non molestie porttitor. Nam ornare mollis risus in posuere. Duis id bibendum magna, id ultrices sapien. Morbi posuere magna dolor, ut dignissim magna scelerisque nec. Donec bibendum felis est. Integer libero libero, tincidunt eget volutpat non, malesuada non velit. In porttitor facilisis hendrerit. Etiam imperdiet et tellus eu gravida.</p>
+                </div>
+                <button class="hero-submit">Submit</button>
+            </div>
+            <div class="card-right">
+                <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h3>
+            </div>
+        </section>
     </main>
     <footer class="footer">
         <div class="footer-logo">
             <img class="footer-logoImg" src="../images/logo-white.png" alt="logo white" />
-            <p class="footer-logoText --psmall">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nibh diam massa aenean tortor euismod auctor faucibus eget eget.</p>
+            <p class="footer-logoText --psmall">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nibh diam massa
+                aenean tortor euismod auctor faucibus eget eget.</p>
         </div>
         <div class="footer-menu">
             <ul class="footer-list --left">
@@ -132,7 +197,8 @@
                 </li>
                 <li class="footer-listItem">
                     <a class="footer-link" href="https://www.instagram.com/">
-                        <img class="social-icon" alt="logo instagram" src="../images/instagram-white.png" rel="_blank" />
+                        <img class="social-icon" alt="logo instagram" src="../images/instagram-white.png"
+                            rel="_blank" />
                     </a>
                 </li>
             </ul>

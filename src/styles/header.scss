@@ -35,5 +35,7 @@
     text-transform: uppercase;
     font-weight: 700;
     color: $black;
-
+}
+.navBar-listItem a:hover{
+    color: $secondaryColor;
 }

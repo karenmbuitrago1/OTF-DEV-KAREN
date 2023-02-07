@@ -1,38 +1,74 @@
-body{
+body {
     margin: 0;
     padding: 0;
-    background:$white;
+    background: $white;
     font-family: Gotham, sans-serif;
 }
-html{
+html {
     width: 100%;
 }
-h1{
+h1 {
     font-size: 55px;
 }
-h2{
+h2 {
     font-size: 44px;
 }
-h3{
+h3 {
     font-size: 35px;
 }
-h4{
+h4 {
     font-size: 28px;
 }
-h5{
+h5 {
     font-size: 23px;
 }
-p{
+p {
     font-size: 18px;
 }
-.--psmall{
+.--psmall {
     font-size: 12px;
     font-family: Gotham-light, sans-serif;
 }
-button{
+button,
+input[type="submit"] {
     font-size: 18px;
+    font-family: Gotham-light,sans-serif;
+    text-align: center;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: $white;
+    border-radius: 30px;
+    padding: 10px 50px;
+    cursor: pointer;
+    width: max-content;
+    @include transition(all ease-in-out 0.4s);
 }
-.social-icon{
+
+input,
+textarea,
+select {
+    margin: 8px 0;
+    width: 100%;
+    min-height: 40px;
+    border: 1px solid $gray4;
+    color: $gray3;
+    padding: 0;
+}
+
+label{
+    font-size: 12px;
+    color: $gray1;
+}
+
+::placeholder {
+    padding: 16px 8px;
+}
+
+label {
+    display: block;
+}
+
+.social-icon {
     width: 22px;
     height: auto;
 }

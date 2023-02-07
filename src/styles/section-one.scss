@@ -1,0 +1,31 @@
+.section-one{
+    background-image: url('../images/section-one.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+.section-content{
+    width: 88%;
+    display: flex;
+    margin: 50px 0;
+}
+.section-one--left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.section-one--h3{
+    color: $principalRed;
+    text-transform: uppercase;
+    font-family: Gotham-bold, sans-serif;
+    margin: 20px;
+}
+.section-one--p{
+    margin: 0 20px;
+    line-height: 150%;
+}
+
+.section-one--right{
+    margin: 0 30px;
+}
