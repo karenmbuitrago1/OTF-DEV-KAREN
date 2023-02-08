@@ -1,4 +1,4 @@
-.header{
+.header {
     background-color: $white;
     display: flex;
     justify-content: space-between;
@@ -7,41 +7,142 @@
     margin: auto;
     font-family: Gotham-Bold, sans-serif;
 }
-.menu{
+.menu {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
 }
-.social-list{
+.social-list {
     display: flex;
     list-style: none;
     padding: 0;
     margin: 0;
     align-items: center;
 }
-.social-listItem{
+.social-listItem {
     padding: 0 6px;
 }
-.navBar-list{
-    display: flex;
-    list-style: none;
+
+.navBar{
+    margin: 12px 0;
 }
-.navBar-listItem{
+.navBar-list {
+    display: blocK;
+}
+
+.navBar-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navBar-listItem {
+    float: left;
+    position: relative;
     margin: 0 6px;
     padding: 0 10px;
 }
-.navBar-listItem a{
+
+.navBar-link {
+    display: block;
     text-decoration: none;
     text-transform: uppercase;
     font-weight: 700;
     color: $black;
 }
-.navBar-listItem a:hover{
+
+.navBar-link:hover {
     color: $principalRed;
 }
 
-@media only screen and (min-width: 768px) {
-    body{
-        width: 100hv;
+.navBar-listItem:last-child{
+    margin: 0 0 0 6px;
+    padding: 0 0 0 10px;
+}
+
+.nav-movil {
+    display: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 70px;
+    width: 100%;
+}
+
+@media screen and (max-width: 720px) {
+    .menu{
+        width: 100%;
     }
+    .nav-movil {
+        display: block;
+    }
+    .logo{
+        display: none;
+    }
+    .navBar{
+        width: 100%;
+    }
+
+    .navBar-list {
+        display: none;
+    }
+
+    .navBar-listItem {
+        float: none;
+    }
+    .navBar-link {
+        padding: 20px;
+        line-height: 20px;
+    }
+    .navBar-listItem ul li a {
+        padding-left: 30px;
+    }
+}
+
+#nav-boton {
+    position: absolute;
+    left: 20px;
+    top: 25px;
+    cursor: pointer;
+    width: 20px;
+    height: 10px;
+    padding: 5px 15px 15px 0px;
+    z-index: 1;
+}
+
+#nav-boton span,
+#nav-boton span:after,
+#nav-boton span:before {
+    transition: all 500ms ease-in-out;
+    border-radius: 1px;
+    height: 5px;
+    width: 40px;
+    position: absolute;
+    display: block;
+    content: "";
+    background: $secondaryColor;
+}
+
+#nav-boton span:before {
+    top: -10px;
+}
+#nav-boton span:after {
+    bottom: -10px;
+}
+
+#nav-boton.activo span {
+    background-color: transparent;
+}
+
+#nav-boton.activo span:before,
+#nav-boton.activo span:after {
+    top: 0;
+}
+
+#nav-boton.activo span:after {
+    transform: rotate(-45deg);
+}
+
+#nav-boton.activo span:before {
+    transform: rotate(45deg);
 }
