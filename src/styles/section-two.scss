@@ -36,9 +36,17 @@
     border: 3px solid $principalRed;;
     color: $principalRed;
 }
-
+.section-video{
+    width: 600px;
+}
+.--two{
+    margin: 50px 0 -54px 0;
+}
 @media only screen and (max-width: 600px) {
     .section-two--left {
         margin: 16px;
+    }
+    .--two{
+        margin: 40px 0;
     }
 }

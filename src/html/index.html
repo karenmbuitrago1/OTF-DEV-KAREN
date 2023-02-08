@@ -84,17 +84,17 @@
             <div class="hero-right">
                 <h5 class="hero-right--title">Lorem ipsum dolor sit</h5>
                 <p class="hero-right--text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                <form class="form" action="">
-                    <label for=""><input type="text" requiered placeholder="Placeholder*"></label>
-                    <label class="form-select" for="">
-                        <select name="" id="">
+                <form  class="form" method="post" action="">
+                    <label for="text-description"><input type="text" placeholder="Placeholder*" requiered></label>
+                    <label class="form-select" for="referrer">
+                        <select id="referrer" name="referrer">
                             <option value="">Placeholder*</option>
                             <option value="">Option 1</option>
                         </select>
                     </label>
-                    <label for=""><input type="date"></label>
-                    <label for="">
-                        <textarea name="" id="" cols="30" rows="10" placeholder="Type somenthing here..."></textarea>
+                    <label for="date-hero"><input  type="date" id="date-hero" ></label>
+                    <label for="text-hero">
+                        <textarea name="text-hero" id="text-hero" cols="30" rows="10" placeholder="Type somenthing here..."></textarea>
                     </label>
                     <label for=""><input class="hero-checkbox" type="checkbox" required>Lorem ipsum dolor sit amet,
                         consectetur adipiscing
@@ -118,9 +118,13 @@
             </div>
         </section>
         <section class="section-two">
-            <div class="section-content">
+            <div class="section-content --two">
                 <div class="section-two--left">
                     <img class="section-img" src="../images/section-video.jpg" alt="building">
+                    <!-- <video class="section-video" controls>
+                        <source src="" type="video/mp4">
+                      Your browser does not support the video tag.
+                    </video> -->
                 </div>
                 <div class="section-two--right">
                     <h3 class="section-two--h3">Lorem Ipsum</h3>
