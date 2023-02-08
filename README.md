@@ -8,7 +8,7 @@ karenmbuitrago@gmail.com
 Este proyecto esta creado con el lenguaje de estilos Sass para compilar el Css, por lo que como sugerencia rápida puedes hacer los siguientes pasos.
 
 1. Clonar el proyecto desde github
-2. Instalar un compilador como Parcel: 
+2. Instalar un compilador como Parcel ya que no requiere mayor configuración: 
 ```
 $ npm install parcel
 ```
@@ -20,5 +20,4 @@ $ parcel src/html/index.html
 
 
 ## Autores / créditos
-* **Karen Buitrago** - *Prueba landing page OTF*
-
+* **Karen Buitrago López** - *Prueba landing page OTF*
