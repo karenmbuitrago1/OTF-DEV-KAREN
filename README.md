@@ -20,4 +20,4 @@ $ parcel src/html/index.html
 
 
 ## Autores / créditos
-* **Karen Buitrago** - *Prueba landing page OTF*
+* **Karen Buitrago López** - *Prueba landing page OTF*
