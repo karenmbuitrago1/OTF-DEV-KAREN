@@ -1,33 +1,23 @@
-# Implementacion geoportal 2019
+# Prueba OTF - Landing
 
-Maria Alejandra Tellez Rodriguez
-Bogotá, Colombia
-matellezr@dane.gov.co
+Karen Milena Buitrago López
+karenmbuitrago@gmail.com
 
-## Para empezar
+## Para compilar este proyecto!
 
-Se debe tener instalado gulp en el ordenador, para poder visualizar localmente.
+Este proyecto esta creado con el lenguaje de estilos Sass para compilar el Css, por lo que como sugerencia rápida puedes hacer los siguientes pasos.
+
+1. Clonar el proyecto desde github
+2. Instalar un compilador como Parcel: 
+```
+$ npm install parcel
+```
+3. En tu git bash compilar de la siguiente forma:
 
 ```
-$ npm install gulp -g
+$ parcel src/html/index.html
 ```
 
-### Dependencias
-
-Se debe instalar las dependencias del proyecto.
-
-```
-$ npm install
-```
-npm install --save-dev gulp
-
-## Compilar
-
-Teniendo todo instalado, ahora debe compilar.
-
-```
-$ gulp
-```
 
 ## Autores / créditos
-* **Alejandra Tellez** - *Desarrollo y maquetacion de la plantilla del Geoportal 2019*
+* **Karen Buitrago** - *Prueba landing page OTF*
